@@ -1,0 +1,15 @@
+
+http://127.0.0.1:8081/taxonomy
+http://127.0.0.1:8081/providers
+http://127.0.0.1:8081/providers?zipcode=98052
+http://127.0.0.1:8081/providers?zipcode=98052&gender=F
+http://127.0.0.1:8081/providers?zipcode=98052&gender=F&lastname1=ANDERSON
+http://127.0.0.1:8081/providers?zipcode=98052&gender=F&lastname1=ANDERSON&lastname2=YOKE
+http://127.0.0.1:8081/providers?zipcode=98052&gender=F&lastname1=ANDERSON&lastname2=YOKE&lastname3=ZINK
+http://127.0.0.1:8081/providers?zipcode=98052&gender=F&lastname1=ANDERSON&lastname2=YOKE&lastname3=ZINK&specialty=Counselor
+http://127.0.0.1:8081/providers?zipcode=98052&gender=F&lastname1=ANDERSON&lastname2=YOKE&lastname3=ZINK&specialty=Counselor&distance=25
+http://127.0.0.1:8081/shortlist
+http://127.0.0.1:8081/shortlist?NPI1=1003002379
+http://127.0.0.1:8081/shortlist?NPI1=1003002379&NPI2=1003002536
+http://127.0.0.1:8081/shortlist?NPI1=1003002379&NPI2=1003002536&NPI3=1003003153
+http://127.0.0.1:8081/transaction?id=d091c740-92b5-11e7-b773-6d2c86545d91

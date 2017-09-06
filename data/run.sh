@@ -1,0 +1,1 @@
+cqlsh cassandra -f healthylinkx_data_script.cql
