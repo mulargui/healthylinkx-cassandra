@@ -33,7 +33,7 @@ FROM npidata2
 WHERE Provider_Last_Name_Legal_Name IS NOT NULL AND Provider_Short_Postal_Code IS NOT NULL AND NPI IS NOT NULL
 PRIMARY KEY (Provider_Last_Name_Legal_Name, Provider_Short_Postal_Code, NPI);
 
-CREATE MATERIALIZED VIEW IF NOT EXISTS npidatabyname 
+CREATE MATERIALIZED VIEW IF NOT EXISTS npidatabyspecialty 
 AS SELECT *
 FROM npidata2 
 WHERE Classification IS NOT NULL AND Provider_Short_Postal_Code IS NOT NULL AND NPI IS NOT NULL
